@@ -10,7 +10,7 @@ composer install
 
 yarn install 
 
-yarn encore dev
+yarn encore dev [--watch]
 
 symfony serve 
 ```
