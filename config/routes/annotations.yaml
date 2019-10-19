@@ -1,6 +1,7 @@
 web_controllers:
     resource: ../../src/Controller/Web/
     type: annotation
+    prefix: /web
 
 rest_controllers:
     resource: ../../src/Controller/Rest/
