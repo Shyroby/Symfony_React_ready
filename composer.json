@@ -1,6 +1,8 @@
 {
+    "name": "Shyroby/Symfony_React_ready",
+    "description": "Api first setup, ready to make a react symfony API using encore and FosRestBundle",
     "type": "project",
-    "license": "proprietary",
+    "license": "MIT",
     "require": {
         "php": "^7.1.3",
         "ext-ctype": "*",
