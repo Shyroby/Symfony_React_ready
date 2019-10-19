@@ -1,4 +1,3 @@
-# Read the documentation: https://symfony.com/doc/master/bundles/FOSRestBundle/index.html
 fos_rest: 
 #    param_fetcher_listener:  true
 #    allowed_methods_listener:  true
@@ -14,4 +13,4 @@ fos_rest:
         enabled: true
         rules:
             - { path: ^/api, prefer_extension: true, fallback_format: json, priorities: [ json ] }
-            - { path: ^/web, prefer_extension: true, fallback_format: json, priorities: [ json,html ] }
+            - { path: ^/, prefer_extension: true, fallback_format: json, priorities: [ json,html ] }
