@@ -17,5 +17,9 @@ symfony serve
 
 navigate to --> localhost:8000/web
 
+or 
+
+navigate to --> localhost:8000/api/endpoint
+
 
 
