@@ -1,0 +1,1 @@
+fos_rest: "null\nview:\n    view_response_listener:  true\nformat_listener:\n    rules:\n        - { path: ^/api, prefer_extension: true, fallback_format: json, priorities: [ json, html ] }"
